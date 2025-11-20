@@ -10,7 +10,7 @@ class LoginPage:
         self.next_btn = "#identifierNext"
         self.pass_input = "input[type='password']"
         self.pass_next_btn = "#passwordNext"
-        self.pass_next_btn = "#passwordNext"
+        
 
     def login(self, email, password):
         self.page.goto("https://gmail.com")
